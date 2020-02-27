@@ -1,29 +1,35 @@
-import React, {component} from 'react';
+import React from 'react';
+import Main from "./components/Main";
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import './App.css';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
     <div>
     <div style={{height: '300px', position: 'relative'}}>
     <Layout fixedHeader>
-        <Header title={<span><span style={{ color: '#ddd' }}></span><strong>Title</strong></span>}>
+        <Header className="header-color" title="Brandon Park" scroll>
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <Link to="/Resume">Resume</Link>
+                <Link to="/About">About Me</Link>
+                <Link to="/Projects">Projects</Link>
+                <Link to="/Contact">Contact</Link>
             </Navigation>
         </Header>
         <Drawer title="Title">
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+            <Link to="/Resume">Resume</Link>
+                <Link to="/About">About Me</Link>
+                <Link to="/Projects">Projects</Link>
+                <Link to="/Contact">Contact</Link>
             </Navigation>
         </Drawer>
-        <Content />
+        <Content>
+          <div className="page-content">
+            <Main/>
+          </div>
+        </Content>
     </Layout>
 </div>
     </div>
