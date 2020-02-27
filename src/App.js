@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function App() {
   return (
     <div>
-    <div style={{height: '300px', position: 'relative'}}>
+    <div style={{height: '100vh', position: 'relative'}}>
     <Layout fixedHeader>
         <Header className="header-color" title="Brandon Park" scroll>
             <Navigation>
@@ -17,9 +17,9 @@ function App() {
                 <Link to="/Contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer className="drawer" title="Title">
             <Navigation>
-            <Link to="/Resume">Resume</Link>
+                <Link to="/Resume">Resume</Link>
                 <Link to="/About">About Me</Link>
                 <Link to="/Projects">Projects</Link>
                 <Link to="/Contact">Contact</Link>
