@@ -9,7 +9,7 @@ function App() {
     <div>
     <div style={{height: '100vh', position: 'relative'}}>
     <Layout fixedHeader>
-        <Header className="header-color" title="Brandon Park" scroll>
+        <Header className="header-color" title={<Link style={{textDecoration:"none", color:"white"}}to="/">My Website</Link>} scroll>
             <Navigation>
                 <Link to="/Resume">Resume</Link>
                 <Link to="/About">About Me</Link>
@@ -17,7 +17,7 @@ function App() {
                 <Link to="/Contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer className="drawer" title="Title">
+        <Drawer className="drawer" title={<Link style={{textDecoration:"none", color:"white"}}to="/">My Website</Link>}>
             <Navigation>
                 <Link to="/Resume">Resume</Link>
                 <Link to="/About">About Me</Link>
