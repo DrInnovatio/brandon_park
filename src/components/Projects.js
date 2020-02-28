@@ -11,10 +11,11 @@ class Projects extends Component{
   toggleCategories(){
     if(this.state.activeTab === 0){
       return(
-        <div>
+      <div className="projects-grid">
+
+         {/* Project 1 */}
        <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
         <CardTitle style={{color: "#fff", height: "176px", background: "url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover"}}>React Project</CardTitle>
-
         <CardText>
           Dolor id Lorem veniam culpa consequat velit eu occaecat consectetur nisi labore irure enim.
         </CardText>
@@ -26,9 +27,11 @@ class Projects extends Component{
         <CardMenu style={{color: "#fff"}}>
           <IconButton name="share"/>
         </CardMenu>
+        </Card>
 
+        {/* Project 2 */}
+        <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
         <CardTitle style={{color: "#fff", height: "176px", background: "url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover"}}>React Project</CardTitle>
-
         <CardText>
           Dolor id Lorem veniam culpa consequat velit eu occaecat consectetur nisi labore irure enim.
         </CardText>
@@ -40,9 +43,11 @@ class Projects extends Component{
         <CardMenu style={{color: "#fff"}}>
           <IconButton name="share"/>
         </CardMenu>
+        </Card>
 
+        {/* Project 3 */}
+        <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
         <CardTitle style={{color: "#fff", height: "176px", background: "url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover"}}>React Project</CardTitle>
-
         <CardText>
           Dolor id Lorem veniam culpa consequat velit eu occaecat consectetur nisi labore irure enim.
         </CardText>
@@ -54,12 +59,8 @@ class Projects extends Component{
         <CardMenu style={{color: "#fff"}}>
           <IconButton name="share"/>
         </CardMenu>
-       </Card>
-
-       </div>
-
-       
-      
+        </Card>
+       </div>      
       )
 
     }else if(this.state.activeTab === 1){
@@ -75,10 +76,7 @@ class Projects extends Component{
         <div><h1>This is NodeJS</h1></div>
       )
     }
-   
-
   }
-
 
   render(){
     return(
@@ -90,12 +88,11 @@ class Projects extends Component{
           <Tab>Javascript</Tab>
         </Tabs>
 
-
-          <Grid className="projects-grid">
-            <Cell col={12}>
-                <div className="content">{this.toggleCategories()}</div> 
-            </Cell>
-          </Grid>
+        <Grid>
+          <Cell col={12}>
+              <div className="content">{this.toggleCategories()}</div> 
+          </Cell>
+        </Grid>
 
       </div>
     ) 

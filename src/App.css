@@ -2,7 +2,6 @@
   background: #67B26F;  
   background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  
   background: linear-gradient(to right, #4ca2cd, #67B26F); 
-
 }
 
 .landing-grid{
@@ -16,6 +15,7 @@
   width: 100%;
   height: 100%;
 }
+
 .projects-grid{
   display: flex;
 }
@@ -66,3 +66,50 @@
   padding: 8px;
 }
 
+/* Contact Page CSS */
+
+.contact-body{
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+
+  background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin: 3% 10%;
+}
+
+.contact-grid h2{
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen';
+  font-weight: bold;
+  margin-top: 20px;;
+}
+
+.contact-grid hr{
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+/* Contact Page CSS */
