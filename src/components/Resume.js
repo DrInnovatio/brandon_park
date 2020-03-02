@@ -3,6 +3,8 @@ import {Grid, Cell} from "react-mdl";
 import Education from "./Education";
 import Experience from "./Experience";
 import Skills from "./Skills";
+import myself from "../images/JW.png";
+
 class Resume extends Component{
   render(){
     return(
@@ -10,8 +12,7 @@ class Resume extends Component{
         <Grid>
           <Cell col={4}>
             <div style={{textAlign: "center"}}>
-              <img style={{width: "40%", height: "40%"}}
-              src="http://image.newdaily.co.kr/site/data/img/2015/07/18/2015071800039_0.jpg"
+              <img style={{width: "40%", height: "40%"}} src={myself}
               />
             </div>
             <h2 style={{paddingTop: "2em"}}> Brandon Park</h2>
