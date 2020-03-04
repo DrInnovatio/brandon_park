@@ -21,15 +21,17 @@
 }
 
 .avatar-img{
-  height: 250px;
-  width: 250px;
+  height: 290px;
+  width: 290px;
   padding-top: 5em;
-  border-radius: 10%;
-  background-color: red;
+
 }
 
 .banner-text{
-  background-color: black;
+  background: #d9a7c7;  
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  
+  background: linear-gradient(to right, #fffcdc, #d9a7c7); 
+  
   opacity:  .8;
   width: 75%;
   margin: 7% auto;
@@ -39,23 +41,23 @@
 .banner-text h1{
   font-size: 66px;
   font-weight: bold;
-  color: white;
+  color: #4f3961;
 }
 
 .banner-text hr{
-  border-top: 5px dotted white;
+  border-top: 5px dotted #9de3d0;
   width: 50%;
   margin: auto;
 }
 
 .banner-text p{
-  color: white;
+  color: #4f3961;
   font-size: 20px;
   padding: 1em;
 }
 
 .social-links {
-  color: white;
+
   display: flex;
   justify-content: space-between;
   width: 50%;
@@ -63,7 +65,7 @@
 }
 
 .social-links  i{
-  color: white;
+  color: #4f3961;
   font-size: 5em;
   padding: 8px;
 }
@@ -77,10 +79,9 @@
   height: 100%;
   justify-content: center;
   padding-top: 2em;
-
-  background: #7F7FD5;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+,   Safari 7+ */
+  background: #7F7FD5; 
+  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); 
 
 }
 

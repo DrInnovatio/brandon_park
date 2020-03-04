@@ -14,9 +14,9 @@ class Landing extends Component{
               className="avatar-img"
             />
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1>Web Developer</h1>
               <hr/>
-              <p>HTML | CSS | Bootstrap | NodeJS | React | Javascript | Java</p>
+              <p>HTML/CSS • React • JavaScript • Java • NodeJS • C# • Python • R • Ruby and Ruby on rails</p>
 
               <div className="social-links">
               {/* Instgram */}
