@@ -19,23 +19,16 @@ class Landing extends Component{
               <p>HTML/CSS • React • JavaScript • Java • NodeJS • C# • Python • R • Ruby and Ruby on rails</p>
 
               <div className="social-links">
-              {/* Instgram */}
-              <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-              <i className="fa fa-instagram " aria-hidden="true"/>
-              </a>
-              {/* LinkedIn */}
-              <a href="http://linkedin.com" rel="noopener noreferrer" target="_blank">
-              <i className="fa fa-linkedin " aria-hidden="true"/>
-              </a>
-              {/* Github */}
-              <a href="http://github.com" rel="noopener noreferrer" target="_blank">
-              <i className="fa fa-github " aria-hidden="true"/>
-              </a>
-              {/* facebook */}
-              <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-              <i className="fa fa-facebook-square " aria-hidden="true"/>
-              </a>
 
+                  {/* LinkedIn */}
+                  <a href="https://linkedin.com/in/jaewoo-brandon-park-28b83a97" rel="noopener noreferrer" target="_blank">
+                  <i className="fa fa-linkedin " aria-hidden="true"/>
+                  </a>
+                  
+                  {/* Github */}
+                  <a href="https://github.com/DrInnovatio" rel="noopener noreferrer" target="_blank">
+                  <i className="fa fa-github " aria-hidden="true"/>
+                  </a>
               </div>
             </div>
           </Cell>
