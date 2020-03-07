@@ -9,7 +9,7 @@ function App() {
     <div>
     <div style={{height: '100vh', position: 'relative'}}>
     <Layout fixedHeader>
-        <Header className="header-color" title={<Link style={{textDecoration:"none", color:"#4f3961"}}to="/">My Website</Link>} scroll>
+        <Header className="header-color" title={<Link style={{textDecoration:"none", color:"#4f3961"}}to="/">Jaewoo Brandon Park</Link>} scroll>
             <Navigation>
                 <Link to="/Resume">Resume</Link>
                 <Link to="/About">About Me</Link>

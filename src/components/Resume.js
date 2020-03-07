@@ -4,12 +4,12 @@ import Education from "./Education";
 import Experience from "./Experience";
 import Skills from "./Skills";
 import myself from "../images/JW.png";
-import nl2br from 'react-newline-to-break';
+
 
 class Resume extends Component{
   render(){
     return(
-      <div>
+      <div className="resume-main">
         <Grid>
           <Cell col={4}>
             <div style={{textAlign: "center"}}>
