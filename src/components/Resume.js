@@ -151,32 +151,42 @@ class Resume extends Component{
             <h3 style={{paddingLeft: "10px"}}>Professional Membership</h3>
             <h5 style={{paddingLeft: "30%"}}>A member of ACS Australia</h5>          
 
+            <hr style={{borderTop: "3px solid #ffbd69", width:"50%", margin: "auto"}}/>
 
+            <h2 style={{paddingLeft: "10px"}}>Skills</h2>
 
-            <h2>Skills</h2>
             <Skills
-              skill="Javascript"
-              progress={100}
+              skill="HTML / CSS"
+              progress={98}
             />
-            <Skills
-              skill="NodeJS"
-              progress={70}
-            />
+
             <Skills
               skill="React"
               progress={90}
             />
+
             <Skills
-              skill="Java"
-              progress={50}
-            />
+              skill="Javascript"
+              progress={85}
+            />            
+
             <Skills
-              skill="MongDB"
-              progress={40}
+              skill="NodeJS"
+              progress={80}
             />
+
             <Skills
               skill="Python"
               progress={80}
+            />
+            
+            <Skills
+              skill="Java"
+              progress={70}
+            />
+            <Skills
+              skill="MongDB"
+              progress={50}
             />
 
           </Cell>
