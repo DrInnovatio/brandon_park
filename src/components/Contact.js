@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl'
 import {List, ListItem, ListItemContent} from 'react-mdl';
+import myself from "../images/JW.png";
 
 class Contact extends Component{
   render(){
@@ -9,9 +10,9 @@ class Contact extends Component{
       <Grid className="contact-grid">
       <Cell col={6}>
       <h2>Jaewoo Brandon Park</h2>
-      <img src="https://spnimage.edaily.co.kr/images/photo/files/NP/P/2008/06/PP08062600042.JPG"
+      <img src={myself}
       alt="avatar"
-      style={{height:"250px", borderRadius: "10px"}}
+      style={{width:"280px", height:"300px", borderRadius: "10px"}}
       />
       <p style={{width: "75%", margin: "30px auto", paadingTop: "1em"}}>
       Sint aliquip nostrud eu dolor cillum. Sint aliquip nostrud eu dolor cillum. Sint aliquip nostrud eu dolor cillum. Est ex ullamco ut amet ex occaecat laborum nostrud duis laborum id.
