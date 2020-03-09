@@ -1,8 +1,19 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from "react-mdl"
-
+import ReactTypingEffect from "react-typing-effect";
 
 import myself2 from "../images/JW2.jpg";
+
+const ReactTypingEffectDemo = () => {
+	return (
+		<ReactTypingEffect style={{color:"#790c5a", fontFamily:"courier"}}
+			text={[
+				"It is a truth universally acknowledged, that a competent developer with possession of the innovative mind, must be in want of a job.   <!-- Pride and Programming -->"
+			]}
+			speed={50}
+		/>
+	);
+};
 
 class Landing extends Component{
   render(){
@@ -10,12 +21,17 @@ class Landing extends Component{
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
           <Cell col={12}>
+            
             <img 
               style={{width: "240px", height:"290px"}}
               src={myself2}
               alt="avatar"
               className="avatar-img"
             />
+            <div style={{margin:"1.5%"}}>
+            <ReactTypingEffectDemo/>
+            </div>
+            
             <div className="banner-text">
               <h1>Web Developer</h1>
               <hr/>

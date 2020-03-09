@@ -8,6 +8,8 @@
   background: #67B26F;  
   background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  
   background: linear-gradient(to right, #4ca2cd, #67B26F); 
+
+  display: grid;
   text-align: center;
   position: fixed;
   top:0;
@@ -35,7 +37,7 @@
   box-shadow: 5px 10px #4f3961;
   opacity:  .8;
   width: 75%;
-  margin: 4% auto;
+  margin: 2% auto;
   border-radius: 10px;
 }
 

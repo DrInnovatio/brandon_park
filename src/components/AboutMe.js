@@ -12,7 +12,7 @@ const useStyles = makeStyles(theme => ({
 
   body: {
 	width: "100%",
-	height: "100vh",
+	height: "92vh",
   margin: "auto",
   padding: "auto",
 
@@ -27,8 +27,7 @@ const useStyles = makeStyles(theme => ({
       margin: theme.spacing(1),
       width: "100px",
       height: "100px",
-      marginLeft: "47%",
-      marginTop: "10px"
+      marginLeft: "47%"
     }
   },
   about:{
