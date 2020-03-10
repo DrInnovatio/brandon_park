@@ -12,10 +12,10 @@ class Contact extends Component{
       <h2>Jaewoo Brandon Park</h2>
       <img src={myself}
       alt="avatar"
-      style={{width:"280px", height:"300px", borderRadius: "10px"}}
+      style={{width:"300px", height:"300px", borderRadius: "10px"}}
       />
       <p style={{width: "75%", margin: "30px auto", paadingTop: "1em"}}>
-      Sint aliquip nostrud eu dolor cillum. Sint aliquip nostrud eu dolor cillum. Sint aliquip nostrud eu dolor cillum. Est ex ullamco ut amet ex occaecat laborum nostrud duis laborum id.
+      A creative artist and media professional with over seven years in the industry, I have worked in recording studios and theatrical Stage environments. I have a proven track record of organising and seeing events through to completion. I’ve recently completed a Masters of Information Technology and am now seeking a new professional challenge as a web developer.
       </p>
       </Cell>
       <Cell col={6}>

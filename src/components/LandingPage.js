@@ -6,9 +6,9 @@ import myself2 from "../images/JW2.jpg";
 
 const ReactTypingEffectDemo = () => {
 	return (
-		<ReactTypingEffect style={{color:"#790c5a", fontFamily:"courier"}}
+		<ReactTypingEffect style={{color:"#790c5a", fontFamily:"courier", fontSize:"14px", fontWeight: "bold"}}
 			text={[
-				"It is a truth universally acknowledged, that a competent developer with possession of the innovative mind, must be in want of a job.   <!-- Pride and Programming -->"
+				"It is a truth universally acknowledged, that a competent developer with possession of the innovative mind, must be in want of a job. <!-- Pride and Programming -->"
 			]}
 			speed={50}
 		/>

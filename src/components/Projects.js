@@ -144,7 +144,7 @@ class Projects extends Component{
       
     }else if(this.state.activeTab === 3){
       return (
-        <div><h1>This is Python</h1></div>
+        <div><h1 style={{textAlign: "center"}}>This is Python</h1></div>
       )
     }
   }
