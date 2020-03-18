@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/brandon_park/static/css/main.a705fea3.chunk.css",
+    "main.js": "/brandon_park/static/js/main.c4b9f713.chunk.js",
+    "main.js.map": "/brandon_park/static/js/main.c4b9f713.chunk.js.map",
+    "runtime-main.js": "/brandon_park/static/js/runtime-main.98226fdc.js",
+    "runtime-main.js.map": "/brandon_park/static/js/runtime-main.98226fdc.js.map",
+    "static/css/2.def00553.chunk.css": "/brandon_park/static/css/2.def00553.chunk.css",
+    "static/js/2.dddd5968.chunk.js": "/brandon_park/static/js/2.dddd5968.chunk.js",
+    "static/js/2.dddd5968.chunk.js.map": "/brandon_park/static/js/2.dddd5968.chunk.js.map",
+    "index.html": "/brandon_park/index.html",
+    "precache-manifest.9b8e1961cefd04cf981ba83008597b21.js": "/brandon_park/precache-manifest.9b8e1961cefd04cf981ba83008597b21.js",
+    "service-worker.js": "/brandon_park/service-worker.js",
+    "static/css/2.def00553.chunk.css.map": "/brandon_park/static/css/2.def00553.chunk.css.map",
+    "static/css/main.a705fea3.chunk.css.map": "/brandon_park/static/css/main.a705fea3.chunk.css.map",
+    "static/js/2.dddd5968.chunk.js.LICENSE.txt": "/brandon_park/static/js/2.dddd5968.chunk.js.LICENSE.txt",
+    "static/media/JW.png": "/brandon_park/static/media/JW.cdc8415d.png",
+    "static/media/JW2.jpg": "/brandon_park/static/media/JW2.b0fa0ec0.jpg",
+    "static/media/NewRelic.png": "/brandon_park/static/media/NewRelic.9797706d.png",
+    "static/media/crowd.png": "/brandon_park/static/media/crowd.c0844bc7.png",
+    "static/media/aboutMe.css": "/brandon_park/static/media/newY.97b5145f.png",
+    "static/media/pound.png": "/brandon_park/static/media/pound.454e532f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98226fdc.js",
+    "static/css/2.def00553.chunk.css",
+    "static/js/2.dddd5968.chunk.js",
+    "static/css/main.a705fea3.chunk.css",
+    "static/js/main.c4b9f713.chunk.js"
+  ]
+}
