@@ -85,9 +85,7 @@
   padding-top: 2em;
   background: #ffd89b;  
   background: -webkit-linear-gradient(to right, #19547b, #ffd89b);  
-  background: linear-gradient(to right, #19547b, #ffd89b); 
-
-  
+  background: linear-gradient(to right, #19547b, #ffd89b);   
 }
 
 .contact-grid{

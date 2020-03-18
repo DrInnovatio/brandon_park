@@ -86,7 +86,7 @@ function SecondMainApp() {
 					<ImageAvatar />
 				</Flip>
 
-			<Grid col={12} style={{display:"flex" ,justifyContent:"space-between"}}>
+			<Grid col={12}>
 			    <Cards />
           <Cards />
           <Cards />

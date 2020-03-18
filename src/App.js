@@ -12,7 +12,6 @@ function App() {
         <Header className="header-color" title={<Link style={{textDecoration:"none", color:"#4f3961"}}to="/">Jaewoo Brandon Park</Link>} scroll>
             <Navigation>
                 <Link to="/Resume">Resume</Link>
-                <Link to="/About">About Me</Link>
                 <Link to="/Projects">Projects</Link>
                 <Link to="/Contact">Contact</Link>
             </Navigation>
@@ -20,7 +19,6 @@ function App() {
         <Drawer className="drawer" title={<Link style={{textDecoration:"none", color:"#4f3961"}}to="/">My Website</Link>}>
             <Navigation>
                 <Link to="/Resume">Resume</Link>
-                <Link to="/About">About Me</Link>
                 <Link to="/Projects">Projects</Link>
                 <Link to="/Contact">Contact</Link>
             </Navigation>

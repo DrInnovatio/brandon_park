@@ -13,7 +13,7 @@ class Resume extends Component{
         <Grid>
           <Cell col={4}>
             <div style={{textAlign: "center"}}>
-              <img style={{width: "40%", height: "40%", borderRadius:"5px"}} src={myself}
+              <img alt="me" style={{width: "40%", height: "40%", borderRadius:"5px"}} src={myself}
               />
             
             <h2 style={{paddingTop: "20px"}}> Jaewoo Brandon Park</h2>

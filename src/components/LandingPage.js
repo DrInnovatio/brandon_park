@@ -1,8 +1,10 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from "react-mdl"
 import ReactTypingEffect from "react-typing-effect";
-
 import myself2 from "../images/JW2.jpg";
+import Flip from "react-reveal/Flip";
+
+
 
 const ReactTypingEffectDemo = () => {
 	return (
@@ -21,13 +23,16 @@ class Landing extends Component{
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            
+            <Flip>
             <img 
               style={{width: "240px", height:"290px"}}
               src={myself2}
               alt="avatar"
               className="avatar-img"
             />
+
+            </Flip>
+           
             <div style={{margin:"1.5%"}}>
             <ReactTypingEffectDemo/>
             </div>
