@@ -34,7 +34,7 @@ class Landing extends Component{
             </Flip>
            
             <div style={{margin:"1.5%"}}>
-            <ReactTypingEffectDemo/>
+              <ReactTypingEffectDemo/>
             </div>
             
             <div className="banner-text">
