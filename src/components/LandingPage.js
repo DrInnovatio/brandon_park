@@ -4,8 +4,6 @@ import ReactTypingEffect from "react-typing-effect";
 import myself2 from "../images/JW2.jpg";
 import Flip from "react-reveal/Flip";
 
-
-
 const ReactTypingEffectDemo = () => {
 	return (
 		<ReactTypingEffect style={{color:"#790c5a", fontFamily:"courier", fontSize:"14px", fontWeight: "bold"}}
